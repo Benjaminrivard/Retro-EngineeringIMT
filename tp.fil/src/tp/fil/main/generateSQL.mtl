@@ -1,0 +1,12 @@
+[comment encoding = UTF-8 /]
+[module generateSQL('http://data')]
+[comment 'platform:/resource/tp.fil/src/tp/fil/resources/Data.ecore' /]
+
+[template public generateSQL(model : Model)]
+[comment @main/] 
+[file ('PetStore_database.sql', false, 'UTF-8')]
+	
+	[comment TO BE COMPLETED/]
+
+[/file]
+[/template]

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<kdm:Segment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:code="http://www.eclipse.org/MoDisco/kdm/code" xmlns:kdm="http://www.eclipse.org/MoDisco/kdm/kdm">
+  <model xsi:type="code:CodeModel" name="PetStore">
+    <codeElement xsi:type="code:ClassUnit" name="com.sun.javaee.blueprints.petstore.captcha.BlueFilter">
+      <codeRelation xsi:type="code:Extends" to="//@model.1/@codeElement.0" from="//@model.0/@codeElement.0"/>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.1/@codeElement.0">
+        <annotation text="local "/>
+      </codeRelation>
+      <codeElement xsi:type="code:MethodUnit" name="BlueFilter" type="//@model.0/@codeElement.0/@codeElement.0/@codeElement.0" kind="constructor">
+        <codeElement xsi:type="code:Signature" name="BlueFilter"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="filterRGB" type="//@model.0/@codeElement.0/@codeElement.1/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="filterRGB">
+          <parameterUnit name="x" type="//@model.1/@codeElement.1"/>
+          <parameterUnit name="y" type="//@model.1/@codeElement.1"/>
+          <parameterUnit name="rgb" type="//@model.1/@codeElement.1"/>
+          <parameterUnit type="//@model.1/@codeElement.1" kind="return"/>
+        </codeElement>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:LanguageUnit" name="Common Java datatypes">
+      <codeElement xsi:type="code:IntegerType" name="int"/>
+      <codeElement xsi:type="code:VoidType" name="void"/>
+      <codeElement xsi:type="code:CharType" name="char"/>
+      <codeElement xsi:type="code:BooleanType" name="boolean"/>
+      <codeElement xsi:type="code:FloatType" name="double"/>
+      <codeElement xsi:type="code:IntegerType" name="long"/>
+      <codeElement xsi:type="code:FloatType" name="float"/>
+    </codeElement>
+  </model>
+  <model xsi:type="code:CodeModel" name="external classes">
+    <codeElement xsi:type="code:ClassUnit" name="RGBImageFilter">
+      <codeRelation xsi:type="code:Extends" to="//@model.1/@codeElement.1" from="//@model.1/@codeElement.0"/>
+    </codeElement>
+    <codeElement xsi:type="code:InterfaceUnit" name="MockObject"/>
+  </model>
+</kdm:Segment>

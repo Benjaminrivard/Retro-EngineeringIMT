@@ -1,0 +1,3 @@
+INDEX VERSION 1.131+D:\Users\Benjamin\eclipse-modeling-workspace-retro\.metadata\.plugins\org.eclipse.jdt.core
+3975438759.index
+2529229297.index

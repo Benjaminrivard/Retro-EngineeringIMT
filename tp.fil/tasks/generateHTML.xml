@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="generateHTML" name="tp.fil">
+    <property name="ECLIPSE_HOME" value="../../../../../Program Files/eclipse"/>
+    <property name="ECLIPSE_WORKSPACE" value="../.."/>
+
+    <!-- The classpath with only the dependencies used by the project -->
+    <path id="tp.fil.libraryclasspath">
+        <pathelement location="${ECLIPSE_WORKSPACE}/tp.fil/bin"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.core.runtime_3.17.0.v20191122-2104.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.osgi_3.15.100.v20191114-1701.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.osgi.compatibility.state_1.1.600.v20190814-1451.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.equinox.common_3.10.600.v20191004-1420.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.core.jobs_3.10.600.v20191122-2104.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.equinox.registry_3.8.600.v20191017-2055.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.equinox.preferences_3.7.600.v20191017-2055.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.core.contenttype_3.7.500.v20190916-2125.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.equinox.app_1.4.300.v20190815-1535.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.emf.ecore_2.20.0.v20190920-0401.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.emf.common_2.17.0.v20190920-0401.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.emf.ecore.xmi_2.16.0.v20190528-0725.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.ocl_3.10.400.v20191209-1145.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/lpg.runtime.java_2.0.17.v201004271640.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.ocl.common_1.8.400.v20191209-1145.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.ocl.ecore_3.14.1.v20191209-1145.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.acceleo.common_3.7.9.201911060712.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.acceleo.model_3.7.9.201911060712.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.acceleo.profiler_3.7.9.201911060712.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.acceleo.engine_3.7.9.201911060712.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.emf.codegen.ecore_2.20.0.v20191012-0918.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.emf.codegen_2.19.0.v20190821-1536.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.core.resources_3.13.600.v20191122-2104.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.modisco.java_1.5.0.v20191210-0935.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.modisco.java.discoverer_1.5.0.v20191210-0935.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.modisco.kdm.source.extension_1.5.0.v20191210-0935.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/org.eclipse.modisco.omg.kdm_1.5.0.v20191210-0935.jar"/>
+        <pathelement location="${ECLIPSE_HOME}/plugins/com.google.guava_27.1.0.v20190517-1946.jar"/>
+    </path>
+
+    <path id="tp.fil.classpath">
+        <path refid="tp.fil.libraryclasspath"/>
+    </path>
+
+    <!-- The classpath with only the jars available in the plugin folder of Eclipse -->
+    <path id="tp.fil.libraryclasspath.alljars">
+        <pathelement location="../tp.fil/bin"/>
+        <fileset dir="${ECLIPSE_HOME}/plugins/" includes="*.jar"/>
+    </path>
+
+    <path id="tp.fil.classpath.alljars">
+        <path refid="tp.fil.libraryclasspath.alljars"/>
+    </path>
+
+    <!-- The default task with the jars used by this project -->
+    <target name="generateHTML">
+        <java classname="tp.fil.main.GenerateHTML" classpathref="tp.fil.classpath">
+            <arg value="${model}"/>
+            <arg value="${target}"/>
+        </java>
+    </target>
+
+    <!--
+        In case of problem you can also try with all the jar available in your Eclipse
+        Keep in mind that having two versions of the same jar can create problems
+    -->
+    <target name="generateHTML.alljars">
+        <java classname="tp.fil.main.GenerateHTML" classpathref="tp.fil.classpath">
+            <arg value="${model}"/>
+            <arg value="${target}"/>
+        </java>
+    </target>
+</project>

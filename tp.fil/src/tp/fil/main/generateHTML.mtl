@@ -1,0 +1,12 @@
+[comment encoding = UTF-8 /]
+[module generateHTML('http://data') /]
+[comment 'platform:/resource/tp.fil/src/tp/fil/resources/Data.ecore' /]
+ 
+[template public generateHTML(model : Model)]
+[comment @main/]  
+[file ('PetStore_rendering.html', false, 'UTF-8')]
+	
+	[comment TO BE COMPLETED/]
+
+[/file]
+[/template]

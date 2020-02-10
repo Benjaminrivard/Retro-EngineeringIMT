@@ -1,0 +1,1647 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<kdm:Segment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:code="http://www.eclipse.org/MoDisco/kdm/code" xmlns:kdm="http://www.eclipse.org/MoDisco/kdm/kdm">
+  <model xsi:type="code:CodeModel" name="PetStore">
+    <codeElement xsi:type="code:ClassUnit" name="com.sun.javaee.blueprints.petstore.model.CatalogFacade">
+      <codeRelation xsi:type="code:Implements" to="//@model.1/@codeElement.9" from="//@model.0/@codeElement.0"/>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.0/@codeElement.1">
+        <annotation text="local"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.1/@codeElement.3">
+        <annotation text="local"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.0/@codeElement.2">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.0/@codeElement.2">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.0/@codeElement.2">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.0" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeElement xsi:type="code:MethodUnit" name="CatalogFacade" type="//@model.0/@codeElement.0/@codeElement.0/@codeElement.0" kind="constructor">
+        <codeElement xsi:type="code:Signature" name="CatalogFacade"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="contextDestroyed" type="//@model.0/@codeElement.0/@codeElement.1/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="contextDestroyed">
+          <parameterUnit name="sce" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="contextInitialized" type="//@model.0/@codeElement.0/@codeElement.2/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="contextInitialized">
+          <parameterUnit name="sce" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="context" type="//@model.1/@codeElement.9" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getCategories" type="//@model.0/@codeElement.0/@codeElement.3/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getCategories">
+          <parameterUnit type="//@model.0/@codeElement.0/@codeElement.3/@codeElement.0/@parameterUnit.0/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:TemplateUnit" name="List">
+              <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.9"/>
+              <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="categories" type="//@model.0/@codeElement.0/@codeElement.3/@codeElement.2/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="List">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.9"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getProducts" type="//@model.0/@codeElement.0/@codeElement.4/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getProducts">
+          <parameterUnit type="//@model.0/@codeElement.0/@codeElement.4/@codeElement.0/@parameterUnit.0/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:TemplateUnit" name="List">
+              <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.9"/>
+              <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="products" type="//@model.0/@codeElement.0/@codeElement.4/@codeElement.2/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="List">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.9"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getAllItemsFromCategory" type="//@model.0/@codeElement.0/@codeElement.5/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getAllItemsFromCategory">
+          <parameterUnit name="catID" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.0/@codeElement.0/@codeElement.5/@codeElement.0/@parameterUnit.1/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:TemplateUnit" name="List">
+              <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.0/@codeElement.2"/>
+              <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="items" type="//@model.0/@codeElement.0/@codeElement.5/@codeElement.2/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="List">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.0/@codeElement.2"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getItemInChunkVLH" type="//@model.0/@codeElement.0/@codeElement.6/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getItemInChunkVLH">
+          <parameterUnit name="pID" type="//@model.1/@codeElement.8"/>
+          <parameterUnit name="iID" type="//@model.1/@codeElement.8"/>
+          <parameterUnit name="chunkSize" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.0/@codeElement.0/@codeElement.6/@codeElement.0/@parameterUnit.3/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:TemplateUnit" name="List">
+              <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.0/@codeElement.2"/>
+              <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="query" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="items" type="//@model.0/@codeElement.0/@codeElement.6/@codeElement.3/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="List">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.0/@codeElement.2"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="index" type="//@model.1/@codeElement.9" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getItemsVLH" type="//@model.0/@codeElement.0/@codeElement.7/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getItemsVLH">
+          <parameterUnit name="pID" type="//@model.1/@codeElement.8"/>
+          <parameterUnit name="start" type="//@model.1/@codeElement.9"/>
+          <parameterUnit name="chunkSize" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.0/@codeElement.0/@codeElement.7/@codeElement.0/@parameterUnit.3/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:TemplateUnit" name="List">
+              <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.0/@codeElement.2"/>
+              <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="query" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="items" type="//@model.0/@codeElement.0/@codeElement.7/@codeElement.3/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="List">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.0/@codeElement.2"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getItemsByItemID" type="//@model.0/@codeElement.0/@codeElement.8/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getItemsByItemID">
+          <parameterUnit name="itemIDs" type="//@model.0/@codeElement.0/@codeElement.8/@codeElement.0/@parameterUnit.0/@codeElement.0">
+            <codeElement xsi:type="code:ArrayType" size="-1">
+              <itemUnit type="//@model.1/@codeElement.8" size="-1"/>
+              <indexUnit type="//@model.1/@codeElement.8"/>
+            </codeElement>
+          </parameterUnit>
+          <parameterUnit type="//@model.0/@codeElement.0/@codeElement.8/@codeElement.0/@parameterUnit.1/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:TemplateUnit" name="List">
+              <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.0/@codeElement.2"/>
+              <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="items" type="//@model.0/@codeElement.0/@codeElement.8/@codeElement.2/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="List">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.0/@codeElement.2"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="sbItemIDs" type="//@model.1/@codeElement.9" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getItemsByItemIDByRadius" type="//@model.0/@codeElement.0/@codeElement.9/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getItemsByItemIDByRadius">
+          <parameterUnit name="itemIDs" type="//@model.0/@codeElement.0/@codeElement.9/@codeElement.0/@parameterUnit.0/@codeElement.0">
+            <codeElement xsi:type="code:ArrayType" size="-1">
+              <itemUnit type="//@model.1/@codeElement.8" size="-1"/>
+              <indexUnit type="//@model.1/@codeElement.8"/>
+            </codeElement>
+          </parameterUnit>
+          <parameterUnit name="fromLat" type="//@model.1/@codeElement.9"/>
+          <parameterUnit name="toLat" type="//@model.1/@codeElement.9"/>
+          <parameterUnit name="fromLong" type="//@model.1/@codeElement.9"/>
+          <parameterUnit name="toLong" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.0/@codeElement.0/@codeElement.9/@codeElement.0/@parameterUnit.5/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:TemplateUnit" name="List">
+              <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.0/@codeElement.2"/>
+              <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="items" type="//@model.0/@codeElement.0/@codeElement.9/@codeElement.2/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="List">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.0/@codeElement.2"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="sbItemIDs" type="//@model.1/@codeElement.9" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getItemsByCategoryVLH" type="//@model.0/@codeElement.0/@codeElement.10/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getItemsByCategoryVLH">
+          <parameterUnit name="catID" type="//@model.1/@codeElement.8"/>
+          <parameterUnit name="start" type="//@model.1/@codeElement.9"/>
+          <parameterUnit name="chunkSize" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.0/@codeElement.0/@codeElement.10/@codeElement.0/@parameterUnit.3/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:TemplateUnit" name="List">
+              <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.0/@codeElement.2"/>
+              <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="query" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="items" type="//@model.0/@codeElement.0/@codeElement.10/@codeElement.3/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="List">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.0/@codeElement.2"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getItemsByCategoryByRadiusVLH" type="//@model.0/@codeElement.0/@codeElement.11/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getItemsByCategoryByRadiusVLH">
+          <parameterUnit name="catID" type="//@model.1/@codeElement.8"/>
+          <parameterUnit name="start" type="//@model.1/@codeElement.9"/>
+          <parameterUnit name="chunkSize" type="//@model.1/@codeElement.9"/>
+          <parameterUnit name="fromLat" type="//@model.1/@codeElement.9"/>
+          <parameterUnit name="toLat" type="//@model.1/@codeElement.9"/>
+          <parameterUnit name="fromLong" type="//@model.1/@codeElement.9"/>
+          <parameterUnit name="toLong" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.0/@codeElement.0/@codeElement.11/@codeElement.0/@parameterUnit.7/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:TemplateUnit" name="List">
+              <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.0/@codeElement.2"/>
+              <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="query" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="items" type="//@model.0/@codeElement.0/@codeElement.11/@codeElement.3/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="List">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.0/@codeElement.2"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getZipCodeLocations" type="//@model.0/@codeElement.0/@codeElement.12/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getZipCodeLocations">
+          <parameterUnit name="city" type="//@model.1/@codeElement.8"/>
+          <parameterUnit name="start" type="//@model.1/@codeElement.9"/>
+          <parameterUnit name="chunkSize" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.0/@codeElement.0/@codeElement.12/@codeElement.0/@parameterUnit.3/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:TemplateUnit" name="List">
+              <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.9"/>
+              <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="pattern" type="//@model.1/@codeElement.8" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="query" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="zipCodeLocations" type="//@model.0/@codeElement.0/@codeElement.12/@codeElement.4/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="List">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.9"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getProducts" type="//@model.0/@codeElement.0/@codeElement.13/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getProducts">
+          <parameterUnit name="catID" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.0/@codeElement.0/@codeElement.13/@codeElement.0/@parameterUnit.1/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:TemplateUnit" name="List">
+              <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.9"/>
+              <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="products" type="//@model.0/@codeElement.0/@codeElement.13/@codeElement.2/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="List">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.9"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getItems" type="//@model.0/@codeElement.0/@codeElement.14/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getItems">
+          <parameterUnit name="prodID" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.0/@codeElement.0/@codeElement.14/@codeElement.0/@parameterUnit.1/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:TemplateUnit" name="List">
+              <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.0/@codeElement.2"/>
+              <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="items" type="//@model.0/@codeElement.0/@codeElement.14/@codeElement.2/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="List">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.0/@codeElement.2"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getCategory" type="//@model.0/@codeElement.0/@codeElement.15/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getCategory">
+          <parameterUnit name="categoryID" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="result" type="//@model.1/@codeElement.9" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getItem" type="//@model.0/@codeElement.0/@codeElement.16/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getItem">
+          <parameterUnit name="itemID" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.0/@codeElement.2" kind="return"/>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="result" type="//@model.0/@codeElement.2" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="addItem" type="//@model.0/@codeElement.0/@codeElement.17/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="addItem">
+          <parameterUnit name="item" type="//@model.0/@codeElement.2"/>
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="updateItem" type="//@model.0/@codeElement.0/@codeElement.18/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="updateItem">
+          <parameterUnit name="item" type="//@model.0/@codeElement.2"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="doSearch" type="//@model.0/@codeElement.0/@codeElement.19/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="doSearch">
+          <parameterUnit name="querryString" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="searchQuery" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="results" type="//@model.1/@codeElement.9" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="addTagsToItemId" type="//@model.0/@codeElement.0/@codeElement.20/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="addTagsToItemId">
+          <parameterUnit name="sxTags" type="//@model.1/@codeElement.8"/>
+          <parameterUnit name="itemId" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="item" type="//@model.0/@codeElement.2" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="stTags" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="tagx" type="//@model.1/@codeElement.8" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="tag" type="//@model.1/@codeElement.9" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="addTag" type="//@model.0/@codeElement.0/@codeElement.21/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="addTag">
+          <parameterUnit name="sxTag" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="tag" type="//@model.1/@codeElement.9" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getTagsInChunk" type="//@model.0/@codeElement.0/@codeElement.22/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getTagsInChunk">
+          <parameterUnit name="start" type="//@model.1/@codeElement.9"/>
+          <parameterUnit name="chunkSize" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.0/@codeElement.0/@codeElement.22/@codeElement.0/@parameterUnit.2/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:TemplateUnit" name="List">
+              <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.9"/>
+              <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="query" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="tags" type="//@model.0/@codeElement.0/@codeElement.22/@codeElement.3/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="List">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.9"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getTag" type="//@model.0/@codeElement.0/@codeElement.23/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getTag">
+          <parameterUnit name="sxTag" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="tag" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="em" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="tags" type="//@model.0/@codeElement.0/@codeElement.23/@codeElement.3/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="List">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.9"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="indexItem" type="//@model.0/@codeElement.0/@codeElement.24/@codeElement.0" export="private">
+        <codeElement xsi:type="code:Signature" name="indexItem">
+          <parameterUnit name="indexDoc" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="indexer" type="//@model.1/@codeElement.9" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MemberUnit" name="emf" type="//@model.1/@codeElement.9" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="utx" type="//@model.1/@codeElement.9" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="bDebug" type="//@model.1/@codeElement.9" export="private"/>
+    </codeElement>
+    <codeElement xsi:type="code:ClassUnit" name="com.sun.javaee.blueprints.petstore.util.PetstoreUtil">
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.1" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.1" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.1" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.1" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.1" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.1" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeElement xsi:type="code:MethodUnit" name="PetstoreUtil" type="//@model.0/@codeElement.1/@codeElement.0/@codeElement.0" kind="constructor">
+        <codeElement xsi:type="code:Signature" name="PetstoreUtil"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getLogger" type="//@model.0/@codeElement.1/@codeElement.1/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getLogger">
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getBaseLogger" type="//@model.0/@codeElement.1/@codeElement.2/@codeElement.0" export="private">
+        <codeElement xsi:type="code:Signature" name="getBaseLogger">
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getBaseBundle" type="//@model.0/@codeElement.1/@codeElement.3/@codeElement.0" export="private">
+        <codeElement xsi:type="code:Signature" name="getBaseBundle">
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getMessage" type="//@model.0/@codeElement.1/@codeElement.4/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getMessage">
+          <parameterUnit name="key" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getMessage" type="//@model.0/@codeElement.1/@codeElement.5/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getMessage">
+          <parameterUnit name="key" type="//@model.1/@codeElement.8"/>
+          <parameterUnit name="arguments" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="sxRet" type="//@model.1/@codeElement.8" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="closeIgnoringException" type="//@model.0/@codeElement.1/@codeElement.6/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="closeIgnoringException">
+          <parameterUnit name="c" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="encodeJSONString" type="//@model.0/@codeElement.1/@codeElement.7/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="encodeJSONString">
+          <parameterUnit name="json" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MemberUnit" name="_logger" type="//@model.1/@codeElement.9" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="_resBundle" type="//@model.1/@codeElement.9" export="private"/>
+    </codeElement>
+    <codeElement xsi:type="code:ClassUnit" name="com.sun.javaee.blueprints.petstore.model.Item">
+      <codeRelation xsi:type="code:Implements" to="//@model.1/@codeElement.9" from="//@model.0/@codeElement.2"/>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.2" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.2" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.2" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.2" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.2" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.2" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.2" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.2" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.2" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.2" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.2" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.2" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.2" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.2" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.2" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.2" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.2" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.2" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.2" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeElement xsi:type="code:MethodUnit" name="Item" type="//@model.0/@codeElement.2/@codeElement.0/@codeElement.0" kind="constructor">
+        <codeElement xsi:type="code:Signature" name="Item"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="Item" type="//@model.0/@codeElement.2/@codeElement.1/@codeElement.0" kind="constructor">
+        <codeElement xsi:type="code:Signature" name="Item">
+          <parameterUnit name="productID" type="//@model.1/@codeElement.8"/>
+          <parameterUnit name="name" type="//@model.1/@codeElement.8"/>
+          <parameterUnit name="description" type="//@model.1/@codeElement.8"/>
+          <parameterUnit name="imageURL" type="//@model.1/@codeElement.8"/>
+          <parameterUnit name="imageThumbURL" type="//@model.1/@codeElement.8"/>
+          <parameterUnit name="price" type="//@model.1/@codeElement.9"/>
+          <parameterUnit name="address" type="//@model.1/@codeElement.9"/>
+          <parameterUnit name="contactInfo" type="//@model.1/@codeElement.9"/>
+          <parameterUnit name="totalScore" type="//@model.1/@codeElement.9"/>
+          <parameterUnit name="numberOfVotes" type="//@model.1/@codeElement.9"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getItemID" type="//@model.0/@codeElement.2/@codeElement.2/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getItemID">
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getProductID" type="//@model.0/@codeElement.2/@codeElement.3/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getProductID">
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getName" type="//@model.0/@codeElement.2/@codeElement.4/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getName">
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getDescription" type="//@model.0/@codeElement.2/@codeElement.5/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getDescription">
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getPrice" type="//@model.0/@codeElement.2/@codeElement.6/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getPrice">
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getImageURL" type="//@model.0/@codeElement.2/@codeElement.7/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getImageURL">
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getImageThumbURL" type="//@model.0/@codeElement.2/@codeElement.8/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getImageThumbURL">
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getAddress" type="//@model.0/@codeElement.2/@codeElement.9/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getAddress">
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getContactInfo" type="//@model.0/@codeElement.2/@codeElement.10/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getContactInfo">
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getTotalScore" type="//@model.0/@codeElement.2/@codeElement.11/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getTotalScore">
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getNumberOfVotes" type="//@model.0/@codeElement.2/@codeElement.12/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getNumberOfVotes">
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getDisabled" type="//@model.0/@codeElement.2/@codeElement.13/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getDisabled">
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setItemID" type="//@model.0/@codeElement.2/@codeElement.14/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setItemID">
+          <parameterUnit name="itemID" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setProductID" type="//@model.0/@codeElement.2/@codeElement.15/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setProductID">
+          <parameterUnit name="productID" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setName" type="//@model.0/@codeElement.2/@codeElement.16/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setName">
+          <parameterUnit name="name" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setDescription" type="//@model.0/@codeElement.2/@codeElement.17/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setDescription">
+          <parameterUnit name="description" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setImageURL" type="//@model.0/@codeElement.2/@codeElement.18/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setImageURL">
+          <parameterUnit name="imageURL" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setImageThumbURL" type="//@model.0/@codeElement.2/@codeElement.19/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setImageThumbURL">
+          <parameterUnit name="imageThumbURL" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setPrice" type="//@model.0/@codeElement.2/@codeElement.20/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setPrice">
+          <parameterUnit name="price" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setAddress" type="//@model.0/@codeElement.2/@codeElement.21/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setAddress">
+          <parameterUnit name="address" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setContactInfo" type="//@model.0/@codeElement.2/@codeElement.22/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setContactInfo">
+          <parameterUnit name="contactInfo" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setTotalScore" type="//@model.0/@codeElement.2/@codeElement.23/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setTotalScore">
+          <parameterUnit name="totalScore" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setNumberOfVotes" type="//@model.0/@codeElement.2/@codeElement.24/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setNumberOfVotes">
+          <parameterUnit name="numberOfVotes" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setDisabled" type="//@model.0/@codeElement.2/@codeElement.25/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setDisabled">
+          <parameterUnit name="disabled" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getTags" type="//@model.0/@codeElement.2/@codeElement.26/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getTags">
+          <parameterUnit type="//@model.0/@codeElement.2/@codeElement.26/@codeElement.0/@parameterUnit.0/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:TemplateUnit" name="Collection">
+              <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.9"/>
+              <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setTags" type="//@model.0/@codeElement.2/@codeElement.27/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setTags">
+          <parameterUnit name="tags" type="//@model.0/@codeElement.2/@codeElement.27/@codeElement.0/@parameterUnit.0/@codeElement.0">
+            <codeElement xsi:type="code:TemplateUnit" name="Collection">
+              <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.9"/>
+              <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+            </codeElement>
+          </parameterUnit>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="addRating" type="//@model.0/@codeElement.2/@codeElement.28/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="addRating">
+          <parameterUnit name="score" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="checkAverageRating" type="//@model.0/@codeElement.2/@codeElement.29/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="checkAverageRating">
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="average" type="//@model.1/@codeElement.9" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="tagsAsString" type="//@model.0/@codeElement.2/@codeElement.30/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="tagsAsString">
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="sbTags" type="//@model.1/@codeElement.9" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="containsTag" type="//@model.0/@codeElement.2/@codeElement.31/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="containsTag">
+          <parameterUnit name="sxTag" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="bRet" type="//@model.1/@codeElement.9" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="validateWithMessage" type="//@model.0/@codeElement.2/@codeElement.32/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="validateWithMessage">
+          <parameterUnit type="//@model.0/@codeElement.2/@codeElement.32/@codeElement.0/@parameterUnit.0/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:ArrayType" size="-1">
+              <itemUnit type="//@model.1/@codeElement.8" size="-1"/>
+              <indexUnit type="//@model.1/@codeElement.8"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="valMess" type="//@model.0/@codeElement.2/@codeElement.32/@codeElement.1/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="ArrayList">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.8"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MemberUnit" name="itemID" type="//@model.1/@codeElement.8" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="productID" type="//@model.1/@codeElement.8" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="name" type="//@model.1/@codeElement.8" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="description" type="//@model.1/@codeElement.8" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="imageURL" type="//@model.1/@codeElement.8" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="imageThumbURL" type="//@model.1/@codeElement.8" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="price" type="//@model.1/@codeElement.9" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="address" type="//@model.1/@codeElement.9" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="contactInfo" type="//@model.1/@codeElement.9" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="totalScore" type="//@model.1/@codeElement.9" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="numberOfVotes" type="//@model.1/@codeElement.9" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="disabled" type="//@model.1/@codeElement.9" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="tags" type="//@model.0/@codeElement.2/@codeElement.45/@codeElement.0" export="private">
+        <codeElement xsi:type="code:TemplateUnit" name="Collection">
+          <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.9"/>
+          <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+        </codeElement>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:ClassUnit" name="com.sun.javaee.blueprints.petstore.mapviewer.MapBean">
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.0/@codeElement.2">
+        <annotation text="local"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.0/@codeElement.0">
+        <annotation text="local"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.0/@codeElement.4">
+        <annotation text="local"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.0/@codeElement.5">
+        <annotation text="local"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.0/@codeElement.1">
+        <annotation text="local"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.1">
+        <annotation text="local"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.5">
+        <annotation text="local"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.3">
+        <annotation text="local"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.2">
+        <annotation text="local"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.0">
+        <annotation text="local"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.6">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.4">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.6">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.4">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.6">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.7">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.7">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.3" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeElement xsi:type="code:MethodUnit" name="MapBean" type="//@model.0/@codeElement.3/@codeElement.0/@codeElement.0" kind="constructor">
+        <codeElement xsi:type="code:Signature" name="MapBean"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="init" type="//@model.0/@codeElement.3/@codeElement.1/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="init">
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setItemIds" type="//@model.0/@codeElement.3/@codeElement.2/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setItemIds">
+          <parameterUnit name="items" type="//@model.0/@codeElement.3/@codeElement.2/@codeElement.0/@parameterUnit.0/@codeElement.0">
+            <codeElement xsi:type="code:ArrayType" size="-1">
+              <itemUnit type="//@model.1/@codeElement.8" size="-1"/>
+              <indexUnit type="//@model.1/@codeElement.8"/>
+            </codeElement>
+          </parameterUnit>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getItemIds" type="//@model.0/@codeElement.3/@codeElement.3/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getItemIds">
+          <parameterUnit type="//@model.0/@codeElement.3/@codeElement.3/@codeElement.0/@parameterUnit.0/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:ArrayType" size="-1">
+              <itemUnit type="//@model.1/@codeElement.8" size="-1"/>
+              <indexUnit type="//@model.1/@codeElement.8"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getCategories" type="//@model.0/@codeElement.3/@codeElement.4/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getCategories">
+          <parameterUnit type="//@model.0/@codeElement.3/@codeElement.4/@codeElement.0/@parameterUnit.0/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:TemplateUnit" name="List">
+              <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.2"/>
+              <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="arCats" type="//@model.0/@codeElement.3/@codeElement.4/@codeElement.1/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="ArrayList">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.2"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="context" type="//@model.1/@codeElement.7" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="contextMap" type="//@model.0/@codeElement.3/@codeElement.4/@codeElement.3/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="Map">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.8"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.9"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="cf" type="//@model.0/@codeElement.0" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="catsx" type="//@model.0/@codeElement.3/@codeElement.4/@codeElement.5/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="List">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.9"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setCategory" type="//@model.0/@codeElement.3/@codeElement.5/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setCategory">
+          <parameterUnit name="category" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getCategory" type="//@model.0/@codeElement.3/@codeElement.6/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getCategory">
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setCenterAddress" type="//@model.0/@codeElement.3/@codeElement.7/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setCenterAddress">
+          <parameterUnit name="centerAddress" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getCenterAddress" type="//@model.0/@codeElement.3/@codeElement.8/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getCenterAddress">
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setMapMarker" type="//@model.0/@codeElement.3/@codeElement.9/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setMapMarker">
+          <parameterUnit name="mapMarker" type="//@model.1/@codeElement.6"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getMapMarker" type="//@model.0/@codeElement.3/@codeElement.10/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getMapMarker">
+          <parameterUnit type="//@model.1/@codeElement.6" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setMapPoint" type="//@model.0/@codeElement.3/@codeElement.11/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setMapPoint">
+          <parameterUnit name="mapPoint" type="//@model.1/@codeElement.4"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getMapPoint" type="//@model.0/@codeElement.3/@codeElement.12/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getMapPoint">
+          <parameterUnit type="//@model.1/@codeElement.4" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getLocations" type="//@model.0/@codeElement.3/@codeElement.13/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getLocations">
+          <parameterUnit type="//@model.0/@codeElement.3/@codeElement.13/@codeElement.0/@parameterUnit.0/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:ArrayType" size="-1">
+              <itemUnit type="//@model.1/@codeElement.6" size="-1"/>
+              <indexUnit type="//@model.1/@codeElement.6"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="mm" type="//@model.0/@codeElement.3/@codeElement.13/@codeElement.1/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:ArrayType" size="-1">
+            <itemUnit type="//@model.1/@codeElement.6" size="-1"/>
+            <indexUnit type="//@model.1/@codeElement.6"/>
+          </codeElement>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getLocationCount" type="//@model.0/@codeElement.3/@codeElement.14/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getLocationCount">
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getItems" type="//@model.0/@codeElement.3/@codeElement.15/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getItems">
+          <parameterUnit type="//@model.0/@codeElement.3/@codeElement.15/@codeElement.0/@parameterUnit.0/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:TemplateUnit" name="List">
+              <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.0/@codeElement.2"/>
+              <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="addMapMarker" type="//@model.0/@codeElement.3/@codeElement.16/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="addMapMarker">
+          <parameterUnit name="mm" type="//@model.1/@codeElement.6"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setZoomLevel" type="//@model.0/@codeElement.3/@codeElement.17/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setZoomLevel">
+          <parameterUnit name="zoom" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getZoomLevel" type="//@model.0/@codeElement.3/@codeElement.18/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getZoomLevel">
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setRadius" type="//@model.0/@codeElement.3/@codeElement.19/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setRadius">
+          <parameterUnit name="radius" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getRadius" type="//@model.0/@codeElement.3/@codeElement.20/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getRadius">
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="clearValues" type="//@model.0/@codeElement.3/@codeElement.21/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="clearValues">
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="findAllByCategory" type="//@model.0/@codeElement.3/@codeElement.22/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="findAllByCategory">
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="context" type="//@model.1/@codeElement.7" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="contextMap" type="//@model.0/@codeElement.3/@codeElement.22/@codeElement.2/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="Map">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.8"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.9"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="cf" type="//@model.0/@codeElement.0" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="centerx" type="//@model.1/@codeElement.8" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="geoCenterPoint" type="//@model.0/@codeElement.3/@codeElement.22/@codeElement.5/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:ArrayType" size="-1">
+            <itemUnit type="//@model.1/@codeElement.5" size="-1"/>
+            <indexUnit type="//@model.1/@codeElement.5"/>
+          </codeElement>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="findAllByIDs" type="//@model.0/@codeElement.3/@codeElement.23/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="findAllByIDs">
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="context" type="//@model.1/@codeElement.7" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="contextMap" type="//@model.0/@codeElement.3/@codeElement.23/@codeElement.2/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="Map">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.8"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.9"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="cf" type="//@model.0/@codeElement.0" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="vex" type="//@model.1/@codeElement.0" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="itemx" type="//@model.0/@codeElement.3/@codeElement.23/@codeElement.5/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:ArrayType" size="-1">
+            <itemUnit type="//@model.1/@codeElement.8" size="-1"/>
+            <indexUnit type="//@model.1/@codeElement.8"/>
+          </codeElement>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="centerx" type="//@model.1/@codeElement.8" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="geoCenterPoint" type="//@model.0/@codeElement.3/@codeElement.23/@codeElement.7/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:ArrayType" size="-1">
+            <itemUnit type="//@model.1/@codeElement.5" size="-1"/>
+            <indexUnit type="//@model.1/@codeElement.5"/>
+          </codeElement>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="mapItems" type="//@model.0/@codeElement.3/@codeElement.24/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="mapItems">
+          <parameterUnit name="context" type="//@model.1/@codeElement.7"/>
+          <parameterUnit name="items" type="//@model.0/@codeElement.3/@codeElement.24/@codeElement.0/@parameterUnit.1/@codeElement.0">
+            <codeElement xsi:type="code:TemplateUnit" name="List">
+              <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.0/@codeElement.2"/>
+              <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+            </codeElement>
+          </parameterUnit>
+          <parameterUnit name="geoCenterPoint" type="//@model.0/@codeElement.3/@codeElement.24/@codeElement.0/@parameterUnit.2/@codeElement.0">
+            <codeElement xsi:type="code:ArrayType" size="-1">
+              <itemUnit type="//@model.1/@codeElement.5" size="-1"/>
+              <indexUnit type="//@model.1/@codeElement.5"/>
+            </codeElement>
+          </parameterUnit>
+          <parameterUnit name="centerx" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="lookUpAddress" type="//@model.0/@codeElement.3/@codeElement.25/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="lookUpAddress">
+          <parameterUnit name="context" type="//@model.1/@codeElement.7"/>
+          <parameterUnit type="//@model.0/@codeElement.3/@codeElement.25/@codeElement.0/@parameterUnit.1/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:ArrayType" size="-1">
+              <itemUnit type="//@model.1/@codeElement.5" size="-1"/>
+              <indexUnit type="//@model.1/@codeElement.5"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="proxyHost" type="//@model.1/@codeElement.8" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="proxyPort" type="//@model.1/@codeElement.8" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="geoCoder" type="//@model.1/@codeElement.1" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="points" type="//@model.1/@codeElement.5" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="calculateLatitudeRadius" type="//@model.0/@codeElement.3/@codeElement.26/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="calculateLatitudeRadius">
+          <parameterUnit name="radius" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="calculateLongitudeRadius" type="//@model.0/@codeElement.3/@codeElement.27/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="calculateLongitudeRadius">
+          <parameterUnit name="radius" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="changeSpaces" type="//@model.0/@codeElement.3/@codeElement.28/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="changeSpaces">
+          <parameterUnit name="text" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MemberUnit" name="alMapMarkers" type="//@model.0/@codeElement.3/@codeElement.29/@codeElement.0" export="private">
+        <codeElement xsi:type="code:TemplateUnit" name="ArrayList">
+          <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.1/@codeElement.6"/>
+          <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MemberUnit" name="mapMarker" type="//@model.1/@codeElement.6" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="mapPoint" type="//@model.1/@codeElement.4" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="items" type="//@model.0/@codeElement.3/@codeElement.32/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:TemplateUnit" name="List">
+          <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.0/@codeElement.2"/>
+          <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MemberUnit" name="zoomLevel" type="//@model.1/@codeElement.9" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="radius" type="//@model.1/@codeElement.9" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="category" type="//@model.1/@codeElement.8" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="centerAddress" type="//@model.1/@codeElement.8" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="itemIds" type="//@model.0/@codeElement.3/@codeElement.37/@codeElement.0" export="private">
+        <codeElement xsi:type="code:ArrayType" size="-1">
+          <itemUnit type="//@model.1/@codeElement.8" size="-1"/>
+          <indexUnit type="//@model.1/@codeElement.8"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MemberUnit" name="bDebug" type="//@model.1/@codeElement.9" export="private"/>
+    </codeElement>
+    <codeElement xsi:type="code:ClassUnit" name="com.sun.javaee.blueprints.petstore.proxy.GeoPoint">
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.4" from="//@model.1/@codeElement.5">
+        <annotation text="local"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.4" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.4" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.4" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.4" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.4" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.4" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.4" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.4" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.4" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.4" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.4" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeElement xsi:type="code:MethodUnit" name="getLatitude" type="//@model.0/@codeElement.4/@codeElement.0/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getLatitude">
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setLatitude" type="//@model.0/@codeElement.4/@codeElement.1/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setLatitude">
+          <parameterUnit name="latitude" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getLongitude" type="//@model.0/@codeElement.4/@codeElement.2/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getLongitude">
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setLongitude" type="//@model.0/@codeElement.4/@codeElement.3/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setLongitude">
+          <parameterUnit name="longitude" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getAddress" type="//@model.0/@codeElement.4/@codeElement.4/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getAddress">
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setAddress" type="//@model.0/@codeElement.4/@codeElement.5/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setAddress">
+          <parameterUnit name="address" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getCity" type="//@model.0/@codeElement.4/@codeElement.6/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getCity">
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setCity" type="//@model.0/@codeElement.4/@codeElement.7/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setCity">
+          <parameterUnit name="city" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getState" type="//@model.0/@codeElement.4/@codeElement.8/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getState">
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setState" type="//@model.0/@codeElement.4/@codeElement.9/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setState">
+          <parameterUnit name="state" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getZip" type="//@model.0/@codeElement.4/@codeElement.10/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getZip">
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setZip" type="//@model.0/@codeElement.4/@codeElement.11/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setZip">
+          <parameterUnit name="zip" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getCountry" type="//@model.0/@codeElement.4/@codeElement.12/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getCountry">
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setCountry" type="//@model.0/@codeElement.4/@codeElement.13/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setCountry">
+          <parameterUnit name="country" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="toString" type="//@model.0/@codeElement.4/@codeElement.14/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="toString">
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="sb" type="//@model.1/@codeElement.9" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="GeoPoint" type="//@model.0/@codeElement.4/@codeElement.15/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="GeoPoint"/>
+      </codeElement>
+      <codeElement xsi:type="code:MemberUnit" name="latitude" type="//@model.1/@codeElement.9" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="longitude" type="//@model.1/@codeElement.9" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="address" type="//@model.1/@codeElement.8" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="city" type="//@model.1/@codeElement.8" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="state" type="//@model.1/@codeElement.8" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="zip" type="//@model.1/@codeElement.8" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="country" type="//@model.1/@codeElement.8" export="private"/>
+    </codeElement>
+    <codeElement xsi:type="code:ClassUnit" name="com.sun.javaee.blueprints.petstore.proxy.GeoCoder">
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.5" from="//@model.0/@codeElement.4">
+        <annotation text="local"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.5" from="//@model.0/@codeElement.1">
+        <annotation text="local"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.5" from="//@model.1/@codeElement.1">
+        <annotation text="local"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.5" from="//@model.1/@codeElement.5">
+        <annotation text="local"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.5" from="//@model.1/@codeElement.3">
+        <annotation text="local"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.5" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.5" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.5" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.5" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.5" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeRelation xsi:type="code:Imports" to="//@model.0/@codeElement.5" from="//@model.1/@codeElement.8">
+        <annotation text="method parameter"/>
+      </codeRelation>
+      <codeElement xsi:type="code:MethodUnit" name="getApplicationId" type="//@model.0/@codeElement.5/@codeElement.0/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getApplicationId">
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setApplicationId" type="//@model.0/@codeElement.5/@codeElement.1/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setApplicationId">
+          <parameterUnit name="applicationId" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getProxyHost" type="//@model.0/@codeElement.5/@codeElement.2/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getProxyHost">
+          <parameterUnit type="//@model.1/@codeElement.8" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setProxyHost" type="//@model.0/@codeElement.5/@codeElement.3/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setProxyHost">
+          <parameterUnit name="proxyHost" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getProxyPort" type="//@model.0/@codeElement.5/@codeElement.4/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="getProxyPort">
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setProxyPort" type="//@model.0/@codeElement.5/@codeElement.5/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="setProxyPort">
+          <parameterUnit name="proxyPort" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="geoCode" type="//@model.0/@codeElement.5/@codeElement.6/@codeElement.0">
+        <codeElement xsi:type="code:Signature" name="geoCode">
+          <parameterUnit name="location" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.0/@codeElement.5/@codeElement.6/@codeElement.0/@parameterUnit.1/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:ArrayType" size="-1">
+              <itemUnit type="//@model.1/@codeElement.5" size="-1"/>
+              <indexUnit type="//@model.1/@codeElement.5"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="applicationId" type="//@model.1/@codeElement.8" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="document" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="sb" type="//@model.1/@codeElement.9" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="convertResults" type="//@model.0/@codeElement.5/@codeElement.7/@codeElement.0" export="private">
+        <codeElement xsi:type="code:Signature" name="convertResults">
+          <parameterUnit name="document" type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.0/@codeElement.5/@codeElement.7/@codeElement.0/@parameterUnit.1/@codeElement.0" kind="return">
+            <codeElement xsi:type="code:ArrayType" size="-1">
+              <itemUnit type="//@model.1/@codeElement.5" size="-1"/>
+              <indexUnit type="//@model.1/@codeElement.5"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="results" type="//@model.0/@codeElement.5/@codeElement.7/@codeElement.1/@codeElement.0" kind="local">
+          <codeElement xsi:type="code:TemplateUnit" name="List">
+            <codeElement xsi:type="code:MemberUnit" name="templateParameter" type="//@model.0/@codeElement.4"/>
+            <codeElement xsi:type="code:MemberUnit" name="templateType" type="//@model.1/@codeElement.9"/>
+          </codeElement>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="point" type="//@model.0/@codeElement.4" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="root" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="outerList" type="//@model.1/@codeElement.9" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="parseResponse" type="//@model.0/@codeElement.5/@codeElement.8/@codeElement.0" export="private">
+        <codeElement xsi:type="code:Signature" name="parseResponse">
+          <parameterUnit name="url" type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+        <codeElement xsi:type="code:StorableUnit" name="db" type="//@model.1/@codeElement.9" kind="local"/>
+        <codeElement xsi:type="code:StorableUnit" name="stream" type="//@model.1/@codeElement.9" kind="local"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setProxyConfiguration" type="//@model.0/@codeElement.5/@codeElement.9/@codeElement.0" export="private">
+        <codeElement xsi:type="code:Signature" name="setProxyConfiguration">
+          <parameterUnit type="//@model.1/@codeElement.9" kind="return"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="GeoCoder" type="//@model.0/@codeElement.5/@codeElement.10/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="GeoCoder"/>
+      </codeElement>
+      <codeElement xsi:type="code:MemberUnit" name="applicationId" type="//@model.1/@codeElement.8" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="logger" type="//@model.1/@codeElement.9" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="proxyHost" type="//@model.1/@codeElement.8" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="proxyPort" type="//@model.1/@codeElement.9" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="proxySet" type="//@model.1/@codeElement.9" export="private"/>
+      <codeElement xsi:type="code:MemberUnit" name="APPLICATION_ID" type="//@model.1/@codeElement.8" export="unknown"/>
+      <codeElement xsi:type="code:MemberUnit" name="SERVICE_URL" type="//@model.1/@codeElement.8" export="private"/>
+    </codeElement>
+    <codeElement xsi:type="code:LanguageUnit" name="Common Java datatypes">
+      <codeElement xsi:type="code:IntegerType" name="int"/>
+      <codeElement xsi:type="code:VoidType" name="void"/>
+      <codeElement xsi:type="code:CharType" name="char"/>
+      <codeElement xsi:type="code:BooleanType" name="boolean"/>
+      <codeElement xsi:type="code:FloatType" name="double"/>
+      <codeElement xsi:type="code:IntegerType" name="long"/>
+      <codeElement xsi:type="code:FloatType" name="float"/>
+    </codeElement>
+  </model>
+  <model xsi:type="code:CodeModel" name="external classes">
+    <codeElement xsi:type="code:ClassUnit" name="ValueExpression">
+      <codeRelation xsi:type="code:Extends" to="//@model.1/@codeElement.9" from="//@model.1/@codeElement.0"/>
+      <codeElement xsi:type="code:MethodUnit" name="getValue" type="//@model.1/@codeElement.0/@codeElement.0/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="getValue">
+          <parameterUnit type="//@model.1/@codeElement.9"/>
+        </codeElement>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:ClassUnit" name="GeoCoder">
+      <codeRelation xsi:type="code:Extends" to="//@model.1/@codeElement.9" from="//@model.1/@codeElement.1"/>
+      <codeElement xsi:type="code:MethodUnit" name="GeoCoder" type="//@model.1/@codeElement.1/@codeElement.0/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="GeoCoder"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setProxyHost" type="//@model.1/@codeElement.1/@codeElement.1/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="setProxyHost">
+          <parameterUnit type="//@model.1/@codeElement.8"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setProxyPort" type="//@model.1/@codeElement.1/@codeElement.2/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="setProxyPort">
+          <parameterUnit type="//@model.1/@codeElement.9"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="geoCode" type="//@model.1/@codeElement.1/@codeElement.3/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="geoCode">
+          <parameterUnit type="//@model.1/@codeElement.8"/>
+        </codeElement>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:ClassUnit" name="SelectItem">
+      <codeRelation xsi:type="code:Implements" to="//@model.1/@codeElement.9" from="//@model.1/@codeElement.2"/>
+      <codeRelation xsi:type="code:Extends" to="//@model.1/@codeElement.9" from="//@model.1/@codeElement.2"/>
+      <codeElement xsi:type="code:MethodUnit" name="SelectItem" type="//@model.1/@codeElement.2/@codeElement.0/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="SelectItem">
+          <parameterUnit type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.8"/>
+        </codeElement>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:ClassUnit" name="System">
+      <codeRelation xsi:type="code:Extends" to="//@model.1/@codeElement.9" from="//@model.1/@codeElement.3"/>
+      <codeElement xsi:type="code:MethodUnit" name="getProperty" type="//@model.1/@codeElement.3/@codeElement.0/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="getProperty">
+          <parameterUnit type="//@model.1/@codeElement.8"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setProperty" type="//@model.1/@codeElement.3/@codeElement.1/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="setProperty">
+          <parameterUnit type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.8"/>
+        </codeElement>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:ClassUnit" name="MapPoint">
+      <codeRelation xsi:type="code:Implements" to="//@model.1/@codeElement.9" from="//@model.1/@codeElement.4"/>
+      <codeRelation xsi:type="code:Extends" to="//@model.1/@codeElement.9" from="//@model.1/@codeElement.4"/>
+      <codeElement xsi:type="code:MethodUnit" name="MapPoint" type="//@model.1/@codeElement.4/@codeElement.0/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="MapPoint"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setLatitude" type="//@model.1/@codeElement.4/@codeElement.1/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="setLatitude">
+          <parameterUnit type="//@model.1/@codeElement.9"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setLongitude" type="//@model.1/@codeElement.4/@codeElement.2/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="setLongitude">
+          <parameterUnit type="//@model.1/@codeElement.9"/>
+        </codeElement>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:ClassUnit" name="GeoPoint">
+      <codeRelation xsi:type="code:Extends" to="//@model.1/@codeElement.9" from="//@model.1/@codeElement.5"/>
+      <codeElement xsi:type="code:MethodUnit" name="getLatitude" type="//@model.1/@codeElement.5/@codeElement.0/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="getLatitude"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getLongitude" type="//@model.1/@codeElement.5/@codeElement.1/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="getLongitude"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="GeoPoint" type="//@model.1/@codeElement.5/@codeElement.2/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="GeoPoint"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setLatitude" type="//@model.1/@codeElement.5/@codeElement.3/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="setLatitude">
+          <parameterUnit type="//@model.1/@codeElement.9"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setLongitude" type="//@model.1/@codeElement.5/@codeElement.4/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="setLongitude">
+          <parameterUnit type="//@model.1/@codeElement.9"/>
+        </codeElement>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:ClassUnit" name="MapMarker">
+      <codeRelation xsi:type="code:Extends" to="//@model.1/@codeElement.4" from="//@model.1/@codeElement.6"/>
+      <codeElement xsi:type="code:MethodUnit" name="MapMarker" type="//@model.1/@codeElement.6/@codeElement.0/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="MapMarker"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="setMarkup" type="//@model.1/@codeElement.6/@codeElement.1/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="setMarkup">
+          <parameterUnit type="//@model.1/@codeElement.8"/>
+        </codeElement>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:ClassUnit" name="FacesContext">
+      <codeRelation xsi:type="code:Extends" to="//@model.1/@codeElement.9" from="//@model.1/@codeElement.7"/>
+      <codeElement xsi:type="code:MethodUnit" name="getCurrentInstance" type="//@model.1/@codeElement.7/@codeElement.0/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="getCurrentInstance"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getExternalContext" type="//@model.1/@codeElement.7/@codeElement.1/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="getExternalContext"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getApplication" type="//@model.1/@codeElement.7/@codeElement.2/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="getApplication"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="getELContext" type="//@model.1/@codeElement.7/@codeElement.3/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="getELContext"/>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:ClassUnit" name="String">
+      <codeRelation xsi:type="code:Implements" to="//@model.1/@codeElement.9" from="//@model.1/@codeElement.8"/>
+      <codeRelation xsi:type="code:Implements" to="//@model.1/@codeElement.9" from="//@model.1/@codeElement.8"/>
+      <codeRelation xsi:type="code:Implements" to="//@model.1/@codeElement.9" from="//@model.1/@codeElement.8"/>
+      <codeRelation xsi:type="code:Extends" to="//@model.1/@codeElement.9" from="//@model.1/@codeElement.8"/>
+      <codeElement xsi:type="code:MethodUnit" name="length" type="//@model.1/@codeElement.8/@codeElement.0/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="length"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="substring" type="//@model.1/@codeElement.8/@codeElement.1/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="substring">
+          <parameterUnit type="//@model.1/@codeElement.9"/>
+          <parameterUnit type="//@model.1/@codeElement.9"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="indexOf" type="//@model.1/@codeElement.8/@codeElement.2/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="indexOf">
+          <parameterUnit type="//@model.1/@codeElement.9"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="equals" type="//@model.1/@codeElement.8/@codeElement.3/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="equals">
+          <parameterUnit type="//@model.1/@codeElement.9"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="toLowerCase" type="//@model.1/@codeElement.8/@codeElement.4/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="toLowerCase"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="startsWith" type="//@model.1/@codeElement.8/@codeElement.5/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="startsWith">
+          <parameterUnit type="//@model.1/@codeElement.8"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="lastIndexOf" type="//@model.1/@codeElement.8/@codeElement.6/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="lastIndexOf">
+          <parameterUnit type="//@model.1/@codeElement.8"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="endsWith" type="//@model.1/@codeElement.8/@codeElement.7/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="endsWith">
+          <parameterUnit type="//@model.1/@codeElement.8"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="trim" type="//@model.1/@codeElement.8/@codeElement.8/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="trim"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="valueOf" type="//@model.1/@codeElement.8/@codeElement.9/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="valueOf">
+          <parameterUnit type="//@model.1/@codeElement.9"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="replaceAll" type="//@model.1/@codeElement.8/@codeElement.10/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="replaceAll">
+          <parameterUnit type="//@model.1/@codeElement.8"/>
+          <parameterUnit type="//@model.1/@codeElement.8"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="indexOf" type="//@model.1/@codeElement.8/@codeElement.11/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="indexOf">
+          <parameterUnit type="//@model.1/@codeElement.8"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="toUpperCase" type="//@model.1/@codeElement.8/@codeElement.12/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="toUpperCase"/>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="substring" type="//@model.1/@codeElement.8/@codeElement.13/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="substring">
+          <parameterUnit type="//@model.1/@codeElement.9"/>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="String" type="//@model.1/@codeElement.8/@codeElement.14/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="String">
+          <parameterUnit type="//@model.1/@codeElement.8/@codeElement.14/@codeElement.0/@parameterUnit.0/@codeElement.0">
+            <codeElement xsi:type="code:ArrayType" size="-1">
+              <itemUnit type="//@model.1/@codeElement.9" size="-1"/>
+              <indexUnit type="//@model.1/@codeElement.9"/>
+            </codeElement>
+          </parameterUnit>
+        </codeElement>
+      </codeElement>
+      <codeElement xsi:type="code:MethodUnit" name="valueOf" type="//@model.1/@codeElement.8/@codeElement.15/@codeElement.0" export="unknown">
+        <codeElement xsi:type="code:Signature" name="valueOf">
+          <parameterUnit type="//@model.1/@codeElement.9"/>
+        </codeElement>
+      </codeElement>
+    </codeElement>
+    <codeElement xsi:type="code:InterfaceUnit" name="MockObject"/>
+  </model>
+</kdm:Segment>

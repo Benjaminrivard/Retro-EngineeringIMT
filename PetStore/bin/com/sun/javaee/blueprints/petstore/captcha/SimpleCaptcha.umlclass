@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="Cp1252"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:uml2tools.notation="http://www.eclipse.org/mdt/uml2tools/gmf/notation/ext/2008" xmi:id="_j7ljQIKwEd6ujZkzxt7Smw" type="UMLClass" name="SimpleCaptcha.umlclass" measurementUnit="Pixel">
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_j7ljQYKwEd6ujZkzxt7Smw"/>
+  <styles xmi:type="uml2tools.notation:U2TDiagramCanonicalStyle" xmi:id="_j7ljQoKwEd6ujZkzxt7Smw"/>
+  <styles xmi:type="notation:FilteringStyle" xmi:id="_j7ljQ4KwEd6ujZkzxt7Smw"/>
+  <element xmi:type="uml:Model" href="SimpleCaptcha.uml#a2"/>
+</notation:Diagram>
